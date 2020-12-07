@@ -1,2 +1,0 @@
-class PortoliosController < ApplicationController
-end
