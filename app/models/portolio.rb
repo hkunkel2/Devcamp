@@ -1,0 +1,2 @@
+class Portolio < ApplicationRecord
+end
