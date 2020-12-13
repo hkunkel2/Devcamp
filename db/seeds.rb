@@ -33,8 +33,8 @@ puts "5 blog post created"
         title: "Portfolio title: #{portfolio_item}",
         subtitle: "Ruby on Rails",
         body: "Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Quisque id diam vel quam elementum. Arcu risus quis varius quam quisque id diam vel quam. Risus quis varius quam quisque. Duis at tellus at urna condimentum mattispellentesque id. Vel elit scelerisque mauris pellentesque pulvinar pellentesque.Fusce ut placerat orci nulla pellentesque. Congue quisque egestas diam in arcu cursus euismod quis.",
-        main_image: "https://cdn.pixabay.com/photo/2020/11/22/20/39/giraffe-5767909_1280.jpg",
-        thumb_image: "https://cdn.pixabay.com/photo/2019/01/26/10/24/eagle-3955951_1280.jpg"
+        main_image: "http://placehold.it/600x400",
+        thumb_image: "http://placehold.it/350x200"
     )
 end
 
@@ -43,8 +43,7 @@ end
         title: ": #{portfolio_item}",
         subtitle: "Angular",
         body: "Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Quisque id diam vel quam elementum. Arcu risus quis varius quam quisque id diam vel quam. Risus quis varius quam quisque. Duis at tellus at urna condimentum mattispellentesque id. Vel elit scelerisque mauris pellentesque pulvinar pellentesque.Fusce ut placerat orci nulla pellentesque. Congue quisque egestas diam in arcu cursus euismod quis.",
-        main_image: "https://cdn.pixabay.com/photo/2020/11/22/20/39/giraffe-5767909_1280.jpg",
-        thumb_image: "https://cdn.pixabay.com/photo/2019/01/26/10/24/eagle-3955951_1280.jpg"
-    )
+        main_image: "http://placehold.it/600x400",
+        thumb_image: "http://placehold.it/350x200"
 end
 puts "9 portfolios created"
