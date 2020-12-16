@@ -1,5 +1,7 @@
 class PortfoliosController < ApplicationController
 
+    layout "portfolio"
+
     def index
         @portfolio_item = Portfolio.ruby_on_rails_portfolio_items
     end
