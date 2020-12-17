@@ -20,7 +20,7 @@
 
     <%= login_helper %>
     <%= yield %>
-
+    <%= source_helper("Portfolio") %>
     <% if session[:source] %>
       Thanks for visting me from <%= session[:source] %>
     <% end %>
