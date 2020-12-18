@@ -6,4 +6,13 @@ class Blog < ApplicationRecord
     validates :title, :body, presence: true
 
     belongs_to :topic
+
+    def self.special_blogs
+        all
+      end
+    
+    def self.featured_blogs
+        limit(2)
+    end
+
 end
