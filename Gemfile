@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'friendly_id', '~> 5.4.0'
 gem 'devise', '~> 4.7', '>= 4.7.3'
+gem 'bootstrap', '~> 5.0.0.alpha3'
+gem 'jquery-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
