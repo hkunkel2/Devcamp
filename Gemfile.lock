@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/hkunkel2/hkunkel_view_tool
+  revision: d0d5324bc566c0b579400f203bd4e02806e227d4
+  specs:
+    hkunkel_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -206,6 +212,7 @@ DEPENDENCIES
   byebug
   devise (~> 4.7, >= 4.7.3)
   friendly_id (~> 5.4.0)
+  hkunkel_view_tool!
   jbuilder (~> 2.7)
   jquery-rails
   pg (>= 0.18, < 2.0)

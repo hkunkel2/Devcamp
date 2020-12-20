@@ -18,5 +18,8 @@ module ApplicationHelper
         end
     end
 
+    def copyright_generator
+        HkunkelViewTool::Renderer.copyright 'Harrison Kunkel', 'All rights reserved'
+    end
 end
 
