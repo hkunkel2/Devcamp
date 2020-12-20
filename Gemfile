@@ -47,3 +47,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'hkunkel_view_tool', git: 'https://github.com/hkunkel2/hkunkel_view_tool'
+
+gem 'petergate', '~> 2.0', '>= 2.0.1'
