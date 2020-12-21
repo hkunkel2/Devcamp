@@ -14,14 +14,11 @@
 
   <body class="text-center">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <%= render 'layouts/application_nav-bar', location: 'top' %>
-
-      <%= login_helper %>
+      <%= render 'shared/application_nav-bar', location: 'top' %>
   
       <%= yield %>
-  
-      <%= copyright_generator %>
-  
+
+      <%= render 'shared/application_footer.html.erb' %>
       <%= source_helper("Application") %>
     </div>
   </body>
