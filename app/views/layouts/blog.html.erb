@@ -13,7 +13,9 @@
   </head>
 
   <body>
-    <div class="container">
+
+
+    <div class="container blog-body col-9">
 
       <%= render 'shared/blog_nav-bar' %>
 
@@ -27,16 +29,8 @@
         Thanks for visting me from <%= session[:source] %>
       <% end %>
     </div>
-
-
-
-
   </body>
 
-  <footer class="blog-footer">
-    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    <p>
-      <a href="#">Back to top</a>
-    </p>
-  </footer>
+    <%= render 'shared/blog_footer' %>
+
 </html>

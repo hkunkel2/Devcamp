@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /* stylelint-disable selector-list-comma-newline-after */
 
@@ -126,13 +127,36 @@
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: lightgrey;
     border-top: .05rem solid #e5e5e5;
   }
+
+  /*
+   * custom
+   */
+
   .blog-footer p:last-child {
     margin-bottom: 0;
   }
 
   .blog-login-helper{
         margin-left: 5px;
+  }
+
+  body {
+    background-color: rgb(12, 12, 12);
+
+  }
+
+  .blog-body {
+      background-color: lightgrey;
+  }
+
+  .blog-left-links a {
+      text-align: left;
+      color: black;
+  }
+
+  .social-links li {
+    font-size: 2.5em;
   }
