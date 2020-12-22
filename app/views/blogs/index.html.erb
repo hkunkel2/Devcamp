@@ -11,7 +11,7 @@
 
       <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
 
-      <%= render 'blogs/blog_sidebar' %>
+      <%= paginate @blogs %>
 
       <%= render @blogs %>
 
