@@ -21,12 +21,6 @@
 
     <%= render "shared/portfolio_masthead" %>
 
-
-
-    <%= render 'shared/nav-bar', location: 'top' %>
-
-
-    <%= login_helper %>
     <%= yield %>
     <%= source_helper("Portfolio") %>
     <% if session[:source] %>
