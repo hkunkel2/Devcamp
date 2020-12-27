@@ -8,7 +8,14 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
+global.$ = require("jquery")
+
+require("jquery")
+require("jquery-ui")
+
 require("packs/html.sortable.js")
+
+require("packs/portfolios.js")
 
 //= require jquery3
 //= require popper
