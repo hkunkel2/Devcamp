@@ -31,5 +31,8 @@ module Devcamp
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    #video assets path
+    config.assets.paths << "#{Rails.root}/app/assets/videos"
   end
 end

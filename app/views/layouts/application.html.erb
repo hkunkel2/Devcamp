@@ -17,14 +17,22 @@
 
   <body class="text-center">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <div id="background"></div>
+      <%= video_tag(
+        'home.mp4',
+        id: 'background',
+        autoplay: true,
+        loop: true,
+        muted: true,
 
-        <%= render 'shared/application_nav-bar', location: 'top' %>
+      )
+      %>
 
-        <%= yield %>
+      <%= render 'shared/application_nav-bar', location: 'top' %>
 
-        <%= render 'shared/application_footer.html.erb' %>
-        <%= source_helper("Application") %>
+      <%= yield %>
+
+      <%= render 'shared/application_footer.html.erb' %>
+      <%= source_helper("Application") %>
     </div>
   </body>
 </html>
