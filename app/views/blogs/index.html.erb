@@ -6,9 +6,6 @@
     My Blogs
   </h1>
 
-  <div class="row">
-    <div class="col-md-8 blog-main">
-
       <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
 
       <%= paginate @blogs %>
@@ -17,11 +14,7 @@
 
       <%= paginate @blogs %>
 
-    </div><!-- /.blog-main -->
 
-    <%= render 'blogs/blog_sidebar' %>
-
-  </div><!-- /.row -->
 
 </main><!-- /.container -->
 
