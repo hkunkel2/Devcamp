@@ -26,7 +26,7 @@ gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'bootstrap', '~> 5.0.0.alpha3'
 gem 'jquery-rails'
 # Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false

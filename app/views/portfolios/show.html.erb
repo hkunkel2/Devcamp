@@ -2,7 +2,7 @@
     <div class="row justify-content-center">
 
         <div class="col-7">
-            <%= image_tag @portfolio_item.main_image %>
+            <%= image_tag @portfolio_item.main_image.variant(resize_to_limit: [500, nil]) %>
         </div>
 
         <div class="col-5">

@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+
+https://pragmaticstudio.com/tutorials/using-active-storage-in-rails
