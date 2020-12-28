@@ -17,6 +17,8 @@ require("packs/html.sortable.js")
 
 require("packs/portfolios.js")
 
+require("@nathanvda/cocoon")
+
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
