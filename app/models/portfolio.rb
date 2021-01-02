@@ -6,7 +6,7 @@ class Portfolio < ApplicationRecord
     has_one_attached :main_image
     has_one_attached :thumb_image
 
-    validates :acceptable_main_image, :acceptable_thumb_image
+    validate :acceptable_main_image, :acceptable_thumb_image
 
     include Placeholder
     validates :title, :subtitle, :body, :main_image, :thumb_image, presence: true
@@ -32,7 +32,7 @@ class Portfolio < ApplicationRecord
     def acceptable_main_image
         return unless main_image.attached?
       
-        unless main_image.byte_size <= 1.megabyte
+        unless main_image.byte_size <= 5.megabyte
           errors.add(:main_image, "is too big")
         end
       
@@ -45,7 +45,7 @@ class Portfolio < ApplicationRecord
     def acceptable_thumb_image
         return unless thumb_image.attached?
       
-        unless thumb_image.byte_size <= 1.megabyte
+        unless thumb_image.byte_size <= 5.megabyte
           errors.add(:thumb_image, "is too big")
         end
       
