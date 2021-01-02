@@ -34,5 +34,8 @@ module Devcamp
 
     #video assets path
     config.assets.paths << "#{Rails.root}/app/assets/videos"
+
+    #for lib
+    config.eager_load_paths << "#{Rails.root}/lib"
   end
 end
