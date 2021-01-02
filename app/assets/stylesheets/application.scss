@@ -204,3 +204,15 @@ color: black !important;
 .error {
   color: red !important;
 }
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+.tech-news a {
+  color: rgb(98, 0, 255);
+}
+
+.tech-news > .card {
+  padding: 30px !important;
+}
