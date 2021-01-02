@@ -190,3 +190,13 @@
       color: inherit;
       font-size: 20px;
     }
+
+    
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+}
+
+.error {
+  color: red !important;
+}
